@@ -1,5 +1,5 @@
 Name:      qt6
-Version:   6.5.0
+Version:   6.5.2
 Release:   1
 Summary:   Qt6 meta package
 License:   GPL-3.0-only
@@ -38,7 +38,6 @@ Requires:  qt6-qtvirtualkeyboard
 Requires:  qt6-qtwayland
 Requires:  qt6-qtwebchannel
 Requires:  qt6-qtwebsockets
-
 
 %description
 %{summary}.
@@ -140,5 +139,12 @@ echo "- Qt6 devel meta package" > %{buildroot}%{_docdir}/qt6-devel/README
 
 
 %changelog
+* Wed Nov 29 2023 peijiankang <peijiankang@kylinos.cn> - 6.5.2-1
+- 6.5.2
+
+* Wed Jul 5 2023 EastDong <xudong23@iscas.ac.cn> - 6.5.1-1
+- 6.5.1
+
 * Sun Apr 23 2023 peijiankang <peijiankang@kylinos.cn> - 6.5.0-1
 - 6.5.0
+

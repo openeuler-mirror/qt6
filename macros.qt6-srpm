@@ -1,2 +1,2 @@
-%qt6_qtwebengine_arches %{ix86} x86_64 %{arm} aarch64 riscv64 sw_64 loongarch64
+%qt6_qtwebengine_arches x86_64 aarch64 riscv64 sw_64 loongarch64
 
